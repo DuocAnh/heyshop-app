@@ -7,6 +7,7 @@
     "start": "node backend/app.js",
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/app.js",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/app.js",
+    "seeder": "node backend/seeder/seeder.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Duoc Anh",
